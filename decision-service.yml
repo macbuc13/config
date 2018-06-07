@@ -4,9 +4,9 @@ serviceUrl:
 defaultZone: http://eureka-primary:8761/eureka,http://eureka-secondary:8762/eureka
 ---
 spring:
-profiles: lazy
+  profiles: lazy
 decisions: dec1,dec2
 ---
 spring:
-profiles: crazy
+  profiles: crazy
 decisions: dec3,dec4
