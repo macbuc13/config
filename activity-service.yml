@@ -5,8 +5,8 @@ defaultZone: http://eureka-primary:8761/eureka,http://eureka-secondary:8762/eure
 ---
 spring:
   profiles: lazy
-activities: to grab a bear,to eat a cookie,to take a nap
+activities: activity-lazy-1
 ---
 spring:
   profiles: crazy
-activities: to run a marathon, to go hiking
+activities: activity-crazy-1

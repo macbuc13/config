@@ -5,8 +5,8 @@ defaultZone: http://eureka-primary:8761/eureka,http://eureka-secondary:8762/eure
 ---
 spring:
   profiles: lazy
-decisions: dec1,dec2
+decisions: decision-lazy-1
 ---
 spring:
   profiles: crazy
-decisions: dec3,dec4
+decisions: decision-crazy-1
